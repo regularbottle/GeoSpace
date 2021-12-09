@@ -35,7 +35,7 @@ namespace GeoSpace
         double Lati1 = 0;
         double Latitudine2 = 0;
         string URL = "";
-        string URL2 = "http://google.com";
+        string URL2 = "https://google.com";
 
         private void Window_Loaded_1(object sender, RoutedEventArgs e)
         {
@@ -155,7 +155,7 @@ namespace GeoSpace
                     Latitudine = Lista[i].Latitudine;
                     LONG1 = Lista[i].Longitudine1;
                     LAT1 = Lista[i].Latitudine1;
-                    URL2 = "http://en.m.wikipedia.org/wiki/" + Lista[i].Nome;
+                    URL2 = "https://en.m.wikipedia.org/wiki/" + Lista[i].Nome;
                     Trovato = 1;
                 }
             }
