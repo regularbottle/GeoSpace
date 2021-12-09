@@ -165,7 +165,6 @@ namespace GeoSpace
             {
                 LAT = "Latitudine: " + Latitudine.Substring(0, 2) + "°" + Latitudine.Substring(2, 2) + "'" + Latitudine.Substring(4, 1);
                 LONG = "Longitudine: " + Longitudine.Substring(0, 3) + "°" + Longitudine.Substring(3, 2) + "'" + Longitudine.Substring(5, 1);
-                URL = "ht" + "tp://maps.googleapis.com/maps/api/staticmap?center=" + Convert.ToString(LAT1).Replace(",", ".") + "," + Convert.ToString(LONG1).Replace(",", ".") + "&zoom=12&size=400x400&markers=color:blue%7Clabel:!%7C" + Convert.ToString(LAT1).Replace(",", ".") + "," + Convert.ToString(LONG1).Replace(",", ".") + "&key=AIzaSyBvHn0jhvduqVYauwjyTrhlGSX1CkjpfEQ&sensor=false";
                 wbGoogle.Source = new Uri(URL2, UriKind.Absolute);
                 wbGoogle.Refresh();
                 bimg.BeginInit(); bimg.UriSource = new Uri(URL, UriKind.Absolute);
