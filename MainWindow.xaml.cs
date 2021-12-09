@@ -155,7 +155,7 @@ namespace GeoSpace
                     Latitudine = Lista[i].Latitudine;
                     LONG1 = Lista[i].Longitudine1;
                     LAT1 = Lista[i].Latitudine1;
-                    URL2 = "https://en.m.wikipedia.org/wiki/" + Lista[i].Nome;
+                    //URL2 = "https://en.m.wikipedia.org/wiki/" + Lista[i].Nome;
                     Trovato = 1;
                 }
             }
